@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dar L'Beïda — Restaurant marocain à Dison · 100 % Beldi</title>
-<meta name="description" content="Dar L'Beïda, restaurant marocain à Dison (Rue Albert Ier 108). Pastillas, couscous, tajines faits maison, recettes de famille. Ouvert tous les soirs sauf le mercredi.">
+<meta name="description" content="Dar L'Beïda, restaurant marocain à Dison (Rue Albert Ier 108). Cuisine marocaine authentique &amp; pâtes gourmandes : pastillas, couscous, tajines, grillades, faits maison. Ouvert du mercredi au dimanche, 18 h – 23 h. Réservations : +32 466 40 42 42.">
 <meta property="og:title" content="Dar L'Beïda — 100 % Beldi">
-<meta property="og:description" content="Restaurant marocain à Dison : grands classiques faits maison, recettes de famille.">
+<meta property="og:description" content="Restaurant marocain à Dison : cuisine marocaine authentique &amp; pâtes gourmandes, faites maison.">
 <meta property="og:image" content="img/hero-fresque.jpg">
 <meta property="og:type" content="restaurant">
 <meta name="theme-color" content="#2b1a10">
@@ -21,9 +21,16 @@
   "@type": "Restaurant",
   "name": "Dar L'Beïda",
   "slogan": "100 % Beldi",
-  "image": ["img/hero-fresque.jpg", "img/salon.jpg", "img/facade-108.jpg"],
+  "image": [
+    "img/hero-fresque.jpg",
+    "img/salon.jpg",
+    "img/facade-108.jpg"
+  ],
   "logo": "img/logo-or.png",
-  "servesCuisine": ["Marocaine", "Moroccan"],
+  "servesCuisine": [
+    "Marocaine",
+    "Moroccan"
+  ],
   "priceRange": "€€",
   "address": {
     "@type": "PostalAddress",
@@ -33,40 +40,277 @@
     "addressRegion": "Liège",
     "addressCountry": "BE"
   },
-  "founder": { "@type": "Person", "name": "Zakaria Jawhari" },
+  "founder": {
+    "@type": "Person",
+    "name": "Zakaria Jawhari"
+  },
   "acceptsReservations": "True",
   "hasMenu": {
     "@type": "Menu",
-    "name": "Carte Dar L'Beïda",
+    "name": "Carte Chez Zak — Dar L'Beïda",
     "hasMenuSection": [
-      { "@type": "MenuSection", "name": "Entrées", "hasMenuItem": [
-        { "@type": "MenuItem", "name": "Pastilla Poulet", "offers": { "@type": "Offer", "price": "10.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Pastilla Fruits de Mer", "offers": { "@type": "Offer", "price": "10.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Pastilla Kefta", "offers": { "@type": "Offer", "price": "10.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "La Scampia (scampis du Jeffe)", "offers": { "@type": "Offer", "price": "14.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Harira Traditionnelle", "offers": { "@type": "Offer", "price": "7.00", "priceCurrency": "EUR" } }
-      ]},
-      { "@type": "MenuSection", "name": "Couscous", "hasMenuItem": [
-        { "@type": "MenuItem", "name": "Couscous Poulet / Merguez / Kefta", "offers": { "@type": "Offer", "price": "19.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Couscous Agneau Mijoté", "offers": { "@type": "Offer", "price": "22.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Couscous Végétarien", "suitableForDiet": "https://schema.org/VegetarianDiet", "offers": { "@type": "Offer", "price": "14.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Couscous Royal", "offers": { "@type": "Offer", "price": "24.50", "priceCurrency": "EUR" } }
-      ]},
-      { "@type": "MenuSection", "name": "Tajines", "hasMenuItem": [
-        { "@type": "MenuItem", "name": "Tajine Agneau aux pruneaux & amandes", "offers": { "@type": "Offer", "price": "22.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Tajine Poulet aux olives & citron confit", "offers": { "@type": "Offer", "price": "19.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Tajine Kefta à l'œuf", "offers": { "@type": "Offer", "price": "19.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Tajine Scampis", "offers": { "@type": "Offer", "price": "19.00", "priceCurrency": "EUR" } },
-        { "@type": "MenuItem", "name": "Tajine Végétarien (légumes de saison)", "suitableForDiet": "https://schema.org/VegetarianDiet", "offers": { "@type": "Offer", "price": "14.00", "priceCurrency": "EUR" } }
-      ]},
-      { "@type": "MenuSection", "name": "Dessert", "hasMenuItem": [
-        { "@type": "MenuItem", "name": "Gâteaux marocains & théière de thé à la menthe", "offers": { "@type": "Offer", "price": "10.00", "priceCurrency": "EUR" } }
-      ]},
-      { "@type": "MenuSection", "name": "Formule", "hasMenuItem": [
-        { "@type": "MenuItem", "name": "Formule Dar L'Beïda (apéritif maison, entrée, plat, dessert)", "offers": { "@type": "Offer", "price": "40.00", "priceCurrency": "EUR" } }
-      ]}
+      {
+        "@type": "MenuSection",
+        "name": "Entrées",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Pastilla au poulet",
+            "offers": {
+              "@type": "Offer",
+              "price": "10.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Soupe traditionnelle (Harira)",
+            "offers": {
+              "@type": "Offer",
+              "price": "7.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Scampis du chef",
+            "offers": {
+              "@type": "Offer",
+              "price": "13.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Scampis crème à l'ail",
+            "offers": {
+              "@type": "Offer",
+              "price": "13.00",
+              "priceCurrency": "EUR"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Spécialités marocaines",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Couscous Poulet",
+            "offers": {
+              "@type": "Offer",
+              "price": "19.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Couscous Merguez",
+            "offers": {
+              "@type": "Offer",
+              "price": "19.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Couscous Agneau mijoté",
+            "offers": {
+              "@type": "Offer",
+              "price": "22.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Couscous Royal (poulet, merguez et agneau)",
+            "offers": {
+              "@type": "Offer",
+              "price": "24.50",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Couscous Végétarien",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.00",
+              "priceCurrency": "EUR"
+            },
+            "suitableForDiet": "https://schema.org/VegetarianDiet"
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Tajine Poulet aux olives et citron confit",
+            "offers": {
+              "@type": "Offer",
+              "price": "19.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Tajine Agneau aux pruneaux et amandes grillées",
+            "offers": {
+              "@type": "Offer",
+              "price": "22.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Tajine de Kefta aux œufs",
+            "offers": {
+              "@type": "Offer",
+              "price": "19.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Tajine Végétarien",
+            "offers": {
+              "@type": "Offer",
+              "price": "16.00",
+              "priceCurrency": "EUR"
+            },
+            "suitableForDiet": "https://schema.org/VegetarianDiet"
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Grillades",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Assiette de brochettes de poulet",
+            "offers": {
+              "@type": "Offer",
+              "price": "19.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Assiette de merguez",
+            "offers": {
+              "@type": "Offer",
+              "price": "19.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Assiette mixte de viandes",
+            "offers": {
+              "@type": "Offer",
+              "price": "24.00",
+              "priceCurrency": "EUR"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Pâtes",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Pâtes Scampis",
+            "offers": {
+              "@type": "Offer",
+              "price": "14.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pâtes Poulet",
+            "offers": {
+              "@type": "Offer",
+              "price": "14.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Pâtes Pesto",
+            "offers": {
+              "@type": "Offer",
+              "price": "14.00",
+              "priceCurrency": "EUR"
+            },
+            "suitableForDiet": "https://schema.org/VegetarianDiet"
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Penne Arrabbiata",
+            "offers": {
+              "@type": "Offer",
+              "price": "14.00",
+              "priceCurrency": "EUR"
+            },
+            "suitableForDiet": "https://schema.org/VegetarianDiet"
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Desserts",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Assortiment de pâtisseries marocaines & thé à la menthe fraîche",
+            "offers": {
+              "@type": "Offer",
+              "price": "10.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Moelleux au chocolat cœur fondant & sa boule de glace vanille",
+            "offers": {
+              "@type": "Offer",
+              "price": "10.00",
+              "priceCurrency": "EUR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Dame Blanche",
+            "offers": {
+              "@type": "Offer",
+              "price": "7.00",
+              "priceCurrency": "EUR"
+            }
+          }
+        ]
+      }
     ]
-  }
+  },
+  "telephone": "+32466404242",
+  "vatID": "BE1034613678",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "18:00",
+      "closes": "23:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61584804651733"
+  ]
 }
 </script>
 
@@ -424,6 +668,13 @@ dialog .btn{margin-top:22px}
   .reveal{opacity:1;transform:none}
   html{scroll-behavior:auto}
 }
+.music{position:fixed;left:16px;bottom:16px;z-index:45;display:none;align-items:center;gap:10px;background:rgba(43,26,16,.95);color:#e6c97f;border:1px solid var(--gold);border-radius:999px;padding:10px 18px 10px 13px;font:500 .82rem 'Outfit',sans-serif;cursor:pointer;box-shadow:0 8px 26px rgba(0,0,0,.35)}
+.music.ready{display:flex}
+.music .eq{display:flex;gap:3px;align-items:flex-end;height:16px}
+.music .eq i{width:3px;background:#e6c97f;height:4px;border-radius:2px}
+.music.playing .eq i{animation:eq .9s ease-in-out infinite}
+.music.playing .eq i:nth-child(2){animation-delay:-.3s}.music.playing .eq i:nth-child(3){animation-delay:-.6s}
+@keyframes eq{0%,100%{height:4px}50%{height:16px}}
 </style>
 </head>
 <body>
@@ -469,7 +720,7 @@ dialog .btn{margin-top:22px}
     </div>
     <div class="info">
       <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Rue Albert Ier 108, 4820 Dison</span>
-      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="hero_open">Tous les soirs sauf le mercredi</span></span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="hero_open">Du mercredi au dimanche · 18 h – 23 h</span></span>
     </div>
   </div>
   <a href="#histoire" class="scroll-cue" aria-label="Défiler"></a>
@@ -517,32 +768,20 @@ dialog .btn{margin-top:22px}
       <svg class="corner br" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M4 30C4 16 16 4 30 4"/><path d="M10 30c0-11 9-20 20-20"/><path d="M4 4h12M4 4v12"/><circle cx="20" cy="20" r="3"/></svg>
 
       <div class="menu-head">
-        <h3>MENU DAR L'BEÏDA</h3>
+        <h3>CHEZ ZAK</h3>
         <div class="ornament"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z"/></svg></div>
         <p data-i18n="menu_sub">Cuisine marocaine faite maison</p>
       </div>
 
       <div class="menu-cols" id="menuCols"></div>
 
-      <div class="formule" id="formule">
-        <span class="eyebrow" data-i18n="f_eyebrow">À découvrir</span>
-        <h4 data-i18n="f_title">Formule Dar L'Beïda</h4>
-        <div class="price">40 €</div>
-        <ul>
-          <li data-i18n="f_1">Apéritif maison</li>
-          <li data-i18n="f_2">Entrée</li>
-          <li data-i18n="f_3">Plat</li>
-          <li data-i18n="f_4">Dessert</li>
-        </ul>
-        <a href="#reservation" class="btn btn-gold" data-formule="1" data-i18n="f_cta">Réserver la formule</a>
-      </div>
-    </div>
+          </div>
 
     <div class="menu-foot reveal">
       <a href="#reservation" class="btn btn-gold" data-i18n="cta_book">Réserver</a>
       <a href="https://www.takeaway.com/be-fr" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="cta_delivery">Livraison via Takeaway.com</a>
     </div>
-    <p class="menu-note" data-i18n="menu_takeaway">Lien direct vers notre page Takeaway.com : <span class="tbc">[À COMPLÉTER]</span></p>
+    <p class="menu-note" data-i18n="menu_takeaway">Aussi en livraison : cherchez « Dar L'beïda » sur Takeaway.com.</p>
   </div>
 </section>
 
@@ -616,30 +855,31 @@ dialog .btn{margin-top:22px}
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11l18-8-8 18-2-8z"/></svg>
         <span data-i18n="acc_route">Itinéraire</span>
       </a>
+      <a class="btn btn-line reveal" target="_blank" rel="noopener" href="https://waze.com/ul?q=Rue%20Albert%20Ier%20108%2C%204820%20Dison&navigate=yes" style="margin-left:10px">Waze</a>
     </div>
 
     <div class="ways">
       <div class="way reveal">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 16l1.5-5A2 2 0 0 1 8.4 9.5h7.2a2 2 0 0 1 1.9 1.5L19 16"/><rect x="3" y="16" width="18" height="4" rx="1"/><circle cx="7" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg></div>
         <h3 data-i18n="w1t">En voiture</h3>
-        <p data-i18n="w1">Stationnement dans la rue, devant et autour du restaurant. Parking conseillé : <span class="tbc">[À COMPLÉTER]</span></p>
+        <p data-i18n="w1">Stationnement dans la rue, devant et autour du restaurant. Le plus simple : lancez l'itinéraire Google Maps ou Waze ci-dessus.</p>
       </div>
       <div class="way reveal d1">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 11h16M8 18v3M16 18v3"/><circle cx="8" cy="14.5" r="1"/><circle cx="16" cy="14.5" r="1"/></svg></div>
         <h3 data-i18n="w2t">Bus TEC depuis Verviers</h3>
-        <p data-i18n="w2">Dison est voisine de Verviers : depuis la gare de Verviers-Central, rejoignez Dison en bus TEC. Ligne et arrêt le plus proche : <span class="tbc">[À COMPLÉTER]</span></p>
+        <p data-i18n="w2">Dison est voisine de Verviers : depuis la gare de Verviers-Central, prenez le bus TEC <b>ligne 702</b> jusqu'à Dison.</p>
       </div>
       <div class="way reveal d2">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3 4 21M16 3l4 18M12 4v3M12 10v3M12 16v3"/></svg></div>
         <h3 data-i18n="w3t">Depuis Liège (E42)</h3>
-        <p data-i18n="w3">Prenez l'autoroute E42 en direction de Verviers, puis suivez Dison. Sortie conseillée : <span class="tbc">[À COMPLÉTER]</span></p>
+        <p data-i18n="w3">Prenez l'autoroute E42 en direction de Verviers, puis suivez Dison. Votre GPS ou Waze vous guide jusqu'à la porte.</p>
       </div>
     </div>
 
     <div class="hours reveal">
-      <span><b data-i18n="h_open">Ouvert</b><span data-i18n="h_days">tous les soirs sauf le mercredi</span></span>
-      <span><b data-i18n="h_hours">Horaires</b><span class="tbc" data-i18n="tbc">[À COMPLÉTER]</span></span>
-      <span><b data-i18n="h_phone">Téléphone</b><span class="tbc" data-i18n="tbc">[À COMPLÉTER]</span></span>
+      <span><b data-i18n="h_open">Ouvert</b><span data-i18n="h_days">du mercredi au dimanche</span></span>
+      <span><b data-i18n="h_hours">Horaires</b><span>18 h – 23 h</span></span>
+      <span><b data-i18n="h_phone">Téléphone</b><span><a href="tel:+32466404242">+32 (0)466 40 42 42</a></span></span>
     </div>
   </div>
 </section>
@@ -652,8 +892,9 @@ dialog .btn{margin-top:22px}
       <h2 class="title reveal d1" data-i18n="r_title">Réservez votre table</h2>
       <p class="lead reveal d2" data-i18n="r_lead">Remplissez le formulaire : nous préparons pour vous un message prêt à envoyer par SMS ou WhatsApp.</p>
       <div class="card reveal d3">
-        <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b data-i18n="h_open">Ouvert</b><span data-i18n="h_days">tous les soirs sauf le mercredi</span><br><span data-i18n="h_hours">Horaires</span> : <span class="tbc" data-i18n="tbc">[À COMPLÉTER]</span></div></div>
-        <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><div><b data-i18n="h_phone">Téléphone</b><span class="tbc" data-i18n="tbc">[À COMPLÉTER]</span></div></div>
+        <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b data-i18n="h_open">Ouvert</b><span data-i18n="h_days">du mercredi au dimanche</span><br><span data-i18n="h_hours">Horaires</span> : 18 h – 23 h<br><small data-i18n="h_closed">Fermé le lundi et le mardi</small></div></div>
+        <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><div><b data-i18n="h_phone">Téléphone</b><a href="tel:+32466404242">+32 (0)466 40 42 42</a></div></div>
+        <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 3h-3a4 4 0 0 0-4 4v3H5v4h3v7h4v-7h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg><div><b>Facebook</b><a href="https://www.facebook.com/profile.php?id=61584804651733" target="_blank" rel="noopener">Dar L'Beïda</a></div></div>
         <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><b data-i18n="h_addr">Adresse</b>Rue Albert Ier 108, 4820 Dison</div></div>
       </div>
     </div>
@@ -663,15 +904,9 @@ dialog .btn{margin-top:22px}
         <div class="field"><label for="fn" data-i18n="l_name">Nom</label><input id="fn" name="name" autocomplete="name" required></div>
         <div class="field"><label for="ft" data-i18n="l_phone">Téléphone</label><input id="ft" name="phone" type="tel" autocomplete="tel" required></div>
         <div class="field"><label for="fd" data-i18n="l_date">Date</label><input id="fd" name="date" type="date" required><div class="hint" id="dateHint"></div></div>
-        <div class="field"><label for="fh" data-i18n="l_time">Heure</label><input id="fh" name="time" type="time" step="900" required></div>
+        <div class="field"><label for="fh" data-i18n="l_time">Heure</label><input id="fh" name="time" type="time" step="900" min="18:00" max="22:30" value="20:00" required></div>
         <div class="field full"><label for="fp" data-i18n="l_people">Nombre de personnes</label>
           <select id="fp" name="people"></select></div>
-        <div class="field full"><label data-i18n="l_choice">Votre choix</label>
-          <div class="choice">
-            <label><input type="radio" name="choice" value="formule" id="chF"><span><b data-i18n="f_title">Formule Dar L'Beïda</b>40 € · <span data-i18n="c_f">apéritif, entrée, plat, dessert</span></span></label>
-            <label><input type="radio" name="choice" value="carte" id="chC" checked><span><b data-i18n="c_c">À la carte</b><span data-i18n="c_c2">selon vos envies</span></span></label>
-          </div>
-        </div>
         <div class="field full"><label for="fm" data-i18n="l_msg">Message</label><textarea id="fm" name="msg" data-i18n-ph="l_msg_ph" placeholder="Allergies, occasion particulière, demande spéciale…"></textarea></div>
       </div>
       <div class="hint" id="formHint" style="color:var(--terra);font-size:.88rem;margin-top:10px"></div>
@@ -685,7 +920,7 @@ dialog .btn{margin-top:22px}
           <a class="btn btn-line" id="waBtn" target="_blank" rel="noopener">WhatsApp</a>
           <a class="btn btn-line" id="smsBtn">SMS</a>
         </div>
-        <small data-i18n="r_note">Le message n'est envoyé nulle part automatiquement : copiez-le et envoyez-le au restaurant. Numéro du restaurant : <span class="tbc">[À COMPLÉTER]</span></small>
+        <small data-i18n="r_note"></small>
       </div>
     </form>
   </div>
@@ -704,26 +939,29 @@ dialog .btn{margin-top:22px}
         <h5 data-i18n="foot_contact">Contact</h5>
         <ul>
           <li>Rue Albert Ier 108, 4820 Dison</li>
-          <li><span data-i18n="h_phone">Téléphone</span> : <span class="tbc" data-i18n="tbc">[À COMPLÉTER]</span></li>
-          <li>Facebook : <span class="tbc" data-i18n="tbc">[À COMPLÉTER]</span></li>
+          <li><span data-i18n="h_phone">Téléphone</span> : <a href="tel:+32466404242">+32 (0)466 40 42 42</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61584804651733" target="_blank" rel="noopener">Facebook : Dar L'Beïda</a></li>
           <li><a href="https://www.takeaway.com/be-fr" target="_blank" rel="noopener" data-i18n="cta_delivery">Livraison via Takeaway.com</a></li>
         </ul>
       </div>
       <div>
         <h5 data-i18n="h_hours">Horaires</h5>
         <ul>
-          <li data-i18n="h_days_cap">Tous les soirs sauf le mercredi</li>
-          <li><span class="tbc" data-i18n="tbc">[À COMPLÉTER]</span></li>
+          <li data-i18n="h_days_cap">Du mercredi au dimanche</li>
+          <li>18 h – 23 h</li>
+          <li data-i18n="h_closed">Fermé le lundi et le mardi</li>
         </ul>
       </div>
     </div>
     <div class="f-bot">
-      <span>© <span id="yr">2026</span> Dar L'Beïda · <button class="linkbtn" id="legalBtn" data-i18n="legal">Mentions légales</button> · <span data-i18n="vat">N° d'entreprise</span> : <span class="tbc" data-i18n="tbc">[À COMPLÉTER]</span></span>
+      <span>© <span id="yr">2026</span> Dar L'Beïda · <button class="linkbtn" id="legalBtn" data-i18n="legal">Mentions légales</button> · <span data-i18n="vat">TVA</span> : BE 1034.613.678</span>
       <span data-i18n="credit">Site réalisé par Khalid</span>
     </div>
   </div>
 </footer>
 
+<audio id="bgm" src="audio/musique.mp3" loop preload="auto"></audio>
+<button class="music" id="musicBtn" type="button" aria-label="Musique"><span class="eq"><i></i><i></i><i></i></span><span id="musicLbl">Musique</span></button>
 <a href="#reservation" class="btn btn-gold fab" id="fab" data-i18n="cta_book">Réserver</a>
 
 <div class="lb" id="lb" aria-hidden="true">
@@ -744,7 +982,7 @@ dialog .btn{margin-top:22px}
 
 <script>
 /* ====== À RENSEIGNER ====== */
-const PHONE = "";        // ex. "+32470000000" — numéro du restaurant (SMS / WhatsApp)
+const PHONE = "+32466404242"; // numéro du restaurant (SMS / WhatsApp)
 /* ========================== */
 
 const T = s => s.replace(/\{tbc\}/g, '<span class="tbc">' + TBC[lang] + '</span>');
@@ -753,18 +991,19 @@ let lang = "fr";
 
 const I18N = {
 fr:{
+ h_closed:"Fermé le lundi et le mardi",
  nav_story:"Notre histoire",nav_menu:"La carte",nav_house:"La maison",nav_salon:"Le salon",nav_access:"Accès",nav_book:"Réservation",
  cta_book:"Réserver",cta_menu:"Voir la carte",cta_delivery:"Livraison via Takeaway.com",
  hero_lead:"Les grands classiques de la cuisine marocaine, faits maison, comme chez maman. Recettes de famille, au cœur de Dison.",
- hero_open:"Tous les soirs sauf le mercredi",
+ hero_open:"Du mercredi au dimanche · 18 h – 23 h",
  story_eyebrow:"Notre histoire",story_title:"La cuisine de maman, à Dison",
  story_p1:"Zakaria Jawhari est belgo-marocain. Il a grandi avec les plats de sa maman et c'est auprès d'elle qu'il a tout appris : les épices, la patience des mijotés, la générosité de la table marocaine.",
- story_p2:"Chez Dar L'Beïda, la carte est volontairement courte : uniquement de grands classiques marocains, faits maison, selon les recettes de famille — avec des options végétariennes.",
+ story_p2:"Chez Dar L'Beïda, on retrouve les grands classiques marocains faits maison selon les recettes de famille, mais aussi des grillades et des pâtes gourmandes — avec des options végétariennes.",
  story_quote:"«&nbsp;L'objectif&nbsp;? Que l'on se sente à la maison.&nbsp;»",
  p_home:"Fait maison",p_family:"Recettes de famille",p_veg:"Options végétariennes",
- menu_eyebrow:"La carte",menu_title:"Les grands classiques",menu_lead:"Une carte courte, par choix : tout est préparé maison.",menu_sub:"Cuisine marocaine faite maison",
+ menu_eyebrow:"La carte",menu_title:"La carte Chez Zak",menu_lead:"Spécialités marocaines, grillades et pâtes gourmandes : tout est préparé maison.",menu_sub:"Cuisine marocaine authentique &amp; pâtes gourmandes",
  f_eyebrow:"À découvrir",f_title:"Formule Dar L'Beïda",f_1:"Apéritif maison",f_2:"Entrée",f_3:"Plat",f_4:"Dessert",f_cta:"Réserver la formule",
- menu_takeaway:"Lien direct vers notre page Takeaway.com : {tbc}",
+ menu_takeaway:"Aussi en livraison : cherchez « Dar L'beïda » sur Takeaway.com.",
  house_eyebrow:"La maison",house_title:"Un décor qui raconte le Maroc",
  house_lead:"Une grande fresque orientale, une porte et des lanternes ciselées, des miroirs dorés et des tables dressées pour vous accueillir.",
  cap1:"La grande fresque orientale",cap2:"La porte ciselée et les tables dressées",cap3:"Lanternes ciselées",cap4:"Poteries et artisanat",cap5:"Tajine poulet aux olives & citron confit",cap6:"Miroirs dorés et lumière douce",cap7:"La salle, prête pour le service du soir",
@@ -773,37 +1012,38 @@ fr:{
  salon_lead:"Si le restaurant est complet, on ne vous laisse pas sur le trottoir : vous patientez au salon, comme chez nous.",
  salon_1:"Banquettes brodées",salon_2:"Coussins rayés",salon_3:"Lustre ciselé",
  acc_eyebrow:"Accès",acc_title:"Nous trouver",belgium:"Belgique",acc_route:"Itinéraire",
- w1t:"En voiture",w1:"Stationnement dans la rue, devant et autour du restaurant. Parking conseillé : {tbc}",
- w2t:"Bus TEC depuis Verviers",w2:"Dison est voisine de Verviers : depuis la gare de Verviers-Central, rejoignez Dison en bus TEC. Ligne et arrêt le plus proche : {tbc}",
- w3t:"Depuis Liège (E42)",w3:"Prenez l'autoroute E42 en direction de Verviers, puis suivez Dison. Sortie conseillée : {tbc}",
- h_open:"Ouvert",h_days:"tous les soirs sauf le mercredi",h_days_cap:"Tous les soirs sauf le mercredi",h_hours:"Horaires",h_phone:"Téléphone",h_addr:"Adresse",
+ w1t:"En voiture",w1:"Stationnement dans la rue, devant et autour du restaurant. Le plus simple : lancez l'itinéraire Google Maps ou Waze ci-dessus.",
+ w2t:"Bus TEC depuis Verviers",w2:"Dison est voisine de Verviers : depuis la gare de Verviers-Central, prenez le bus TEC <b>ligne 702</b> jusqu'à Dison.",
+ w3t:"Depuis Liège (E42)",w3:"Prenez l'autoroute E42 en direction de Verviers, puis suivez Dison. Votre GPS ou Waze vous guide jusqu'à la porte.",
+ h_open:"Ouvert",h_days:"du mercredi au dimanche",h_days_cap:"Du mercredi au dimanche",h_hours:"Horaires",h_phone:"Téléphone",h_addr:"Adresse",
  r_eyebrow:"Réservation",r_title:"Réservez votre table",r_lead:"Remplissez le formulaire : nous préparons pour vous un message prêt à envoyer par SMS ou WhatsApp.",
  l_name:"Nom",l_phone:"Téléphone",l_date:"Date",l_time:"Heure",l_people:"Nombre de personnes",l_choice:"Votre choix",l_msg:"Message",l_msg_ph:"Allergies, occasion particulière, demande spéciale…",
  c_f:"apéritif, entrée, plat, dessert",c_c:"À la carte",c_c2:"selon vos envies",
  r_generate:"Générer mon message",r_ready:"Votre message est prêt",r_copy:"Copier",
- r_note:"Le message n'est envoyé nulle part automatiquement : copiez-le et envoyez-le au restaurant. Numéro du restaurant : {tbc}",
+ r_note:"Le message n'est envoyé nulle part automatiquement : envoyez-le par WhatsApp ou SMS, ou appelez directement le +32 (0)466 40 42 42.",
  foot_about:"Restaurant marocain à Dison. Les grands classiques, faits maison, recettes de famille.",foot_contact:"Contact",
- legal:"Mentions légales",vat:"N° d'entreprise",credit:"Site réalisé par Khalid",close:"Fermer",tbc:"[À COMPLÉTER]",
+ legal:"Mentions légales",vat:"TVA",credit:"Site réalisé par Khalid",close:"Fermer",tbc:"[À COMPLÉTER]",
  people:n=>n+(n>1?" personnes":" personne"),morePeople:"Plus de 10 (préciser dans le message)",
- err_req:"Merci de compléter : nom, téléphone, date, heure.",err_wed:"Le restaurant est fermé le mercredi. Merci de choisir un autre jour.",err_past:"Cette date est passée.",
+ err_req:"Merci de compléter : nom, téléphone, date, heure.",err_wed:"Le restaurant est fermé le lundi et le mardi. Merci de choisir un autre jour.",err_past:"Cette date est passée.",
  copied:"Message copié !",
- msg:d=>`Bonjour Dar L'Beïda,\n\nJe souhaite réserver une table :\n• Nom : ${d.name}\n• Téléphone : ${d.phone}\n• Date : ${d.date}\n• Heure : ${d.time}\n• Personnes : ${d.people}\n• Choix : ${d.choice}${d.msg?`\n• Message : ${d.msg}`:""}\n\nMerci et à bientôt !`,
+ msg:d=>`Bonjour Dar L'Beïda,\n\nJe souhaite réserver une table :\n• Nom : ${d.name}\n• Téléphone : ${d.phone}\n• Date : ${d.date}\n• Heure : ${d.time}\n• Personnes : ${d.people}${d.msg?`\n• Message : ${d.msg}`:""}\n\nMerci et à bientôt !`,
  ch_f:"Formule Dar L'Beïda (40 €)",ch_c:"À la carte",
- legalHtml:`<h4>Éditeur du site</h4><p>Dar L'Beïda — Rue Albert Ier 108, 4820 Dison, Belgique.<br>Responsable : {tbc}<br>N° d'entreprise (BCE) : {tbc}<br>Contact : {tbc}</p><h4>Hébergement</h4><p>GitHub Pages — GitHub, Inc.</p><h4>Données personnelles</h4><p>Le formulaire de réservation ne transmet aucune donnée : le message est généré dans votre navigateur et c'est vous qui l'envoyez. Google Maps (carte intégrée) peut déposer ses propres cookies.</p><h4>Crédits</h4><p>Photos : Dar L'Beïda. Site réalisé par Khalid.</p>`
+ legalHtml:`<h4>Éditeur du site</h4><p>Dar L'Beïda — Rue Albert Ier 108, 4820 Dison, Belgique.<br>Responsable : Zakaria Jawhari<br>N° d'entreprise / TVA : BE 1034.613.678<br>Contact : +32 (0)466 40 42 42</p><h4>Hébergement</h4><p>GitHub Pages — GitHub, Inc.</p><h4>Données personnelles</h4><p>Le formulaire de réservation ne transmet aucune donnée : le message est généré dans votre navigateur et c'est vous qui l'envoyez. Google Maps (carte intégrée) peut déposer ses propres cookies.</p><h4>Crédits</h4><p>Photos : Dar L'Beïda. Site réalisé par Khalid.</p>`
 },
 nl:{
+ h_closed:"Gesloten op maandag en dinsdag",
  nav_story:"Ons verhaal",nav_menu:"De kaart",nav_house:"Het huis",nav_salon:"Het salon",nav_access:"Bereikbaarheid",nav_book:"Reserveren",
  cta_book:"Reserveren",cta_menu:"Bekijk de kaart",cta_delivery:"Levering via Takeaway.com",
  hero_lead:"De grote klassiekers uit de Marokkaanse keuken, huisgemaakt, zoals bij mama. Familierecepten, in het hart van Dison.",
- hero_open:"Elke avond, behalve op woensdag",
+ hero_open:"Woensdag t/m zondag · 18 – 23 uur",
  story_eyebrow:"Ons verhaal",story_title:"Mama's keuken, in Dison",
  story_p1:"Zakaria Jawhari is Belgisch-Marokkaans. Hij groeide op met de gerechten van zijn moeder en leerde alles van haar: de kruiden, het geduld van het stoven, de gulheid van de Marokkaanse tafel.",
- story_p2:"Bij Dar L'Beïda is de kaart bewust kort: alleen grote Marokkaanse klassiekers, huisgemaakt volgens familierecepten — met vegetarische opties.",
+ story_p2:"Bij Dar L'Beïda vind je de grote Marokkaanse klassiekers, huisgemaakt volgens familierecepten, maar ook grillgerechten en heerlijke pasta — met vegetarische opties.",
  story_quote:"«&nbsp;Het doel? Dat je je thuis voelt.&nbsp;»",
  p_home:"Huisgemaakt",p_family:"Familierecepten",p_veg:"Vegetarische opties",
- menu_eyebrow:"De kaart",menu_title:"De grote klassiekers",menu_lead:"Een korte kaart, bewust gekozen: alles is huisgemaakt.",menu_sub:"Huisgemaakte Marokkaanse keuken",
+ menu_eyebrow:"De kaart",menu_title:"De kaart Chez Zak",menu_lead:"Marokkaanse specialiteiten, grillgerechten en heerlijke pasta: alles is huisgemaakt.",menu_sub:"Authentieke Marokkaanse keuken &amp; heerlijke pasta",
  f_eyebrow:"Ontdek",f_title:"Formule Dar L'Beïda",f_1:"Huisgemaakt aperitief",f_2:"Voorgerecht",f_3:"Hoofdgerecht",f_4:"Dessert",f_cta:"Reserveer de formule",
- menu_takeaway:"Rechtstreekse link naar onze Takeaway.com-pagina: {tbc}",
+ menu_takeaway:"Ook met levering: zoek « Dar L'beïda » op Takeaway.com.",
  house_eyebrow:"Het huis",house_title:"Een decor dat Marokko vertelt",
  house_lead:"Een groot oosters fresco, een gebeitelde deur en lantaarns, vergulde spiegels en gedekte tafels om je te verwelkomen.",
  cap1:"Het grote oosterse fresco",cap2:"De gebeitelde deur en gedekte tafels",cap3:"Gebeitelde lantaarns",cap4:"Aardewerk en ambacht",cap5:"Tajine kip met olijven & gekonfijte citroen",cap6:"Vergulde spiegels en zacht licht",cap7:"De zaal, klaar voor de avond",
@@ -812,37 +1052,38 @@ nl:{
  salon_lead:"Is het restaurant vol? Dan laten we je niet op de stoep staan: je wacht in het salon, zoals bij ons thuis.",
  salon_1:"Geborduurde banken",salon_2:"Gestreepte kussens",salon_3:"Gebeitelde luchter",
  acc_eyebrow:"Bereikbaarheid",acc_title:"Ons vinden",belgium:"België",acc_route:"Routebeschrijving",
- w1t:"Met de auto",w1:"Parkeren in de straat, voor en rond het restaurant. Aangeraden parking: {tbc}",
- w2t:"Bus TEC vanuit Verviers",w2:"Dison grenst aan Verviers: vanaf het station Verviers-Central bereik je Dison met de TEC-bus. Lijn en dichtstbijzijnde halte: {tbc}",
- w3t:"Vanuit Luik (E42)",w3:"Neem de E42 richting Verviers en volg dan Dison. Aangeraden afrit: {tbc}",
- h_open:"Open",h_days:"elke avond, behalve op woensdag",h_days_cap:"Elke avond, behalve op woensdag",h_hours:"Openingsuren",h_phone:"Telefoon",h_addr:"Adres",
+ w1t:"Met de auto",w1:"Parkeren in de straat, voor en rond het restaurant. Het eenvoudigst: start de route via Google Maps of Waze hierboven.",
+ w2t:"Bus TEC vanuit Verviers",w2:"Dison grenst aan Verviers: vanaf het station Verviers-Central neem je TEC-bus <b>lijn 702</b> naar Dison.",
+ w3t:"Vanuit Luik (E42)",w3:"Neem de E42 richting Verviers en volg dan Dison. Je gps of Waze brengt je tot aan de deur.",
+ h_open:"Open",h_days:"van woensdag tot zondag",h_days_cap:"Van woensdag tot zondag",h_hours:"Openingsuren",h_phone:"Telefoon",h_addr:"Adres",
  r_eyebrow:"Reserveren",r_title:"Reserveer je tafel",r_lead:"Vul het formulier in: we maken een bericht klaar om via sms of WhatsApp te versturen.",
  l_name:"Naam",l_phone:"Telefoon",l_date:"Datum",l_time:"Uur",l_people:"Aantal personen",l_choice:"Je keuze",l_msg:"Bericht",l_msg_ph:"Allergieën, speciale gelegenheid, bijzonder verzoek…",
  c_f:"aperitief, voorgerecht, hoofdgerecht, dessert",c_c:"À la carte",c_c2:"naar keuze",
  r_generate:"Maak mijn bericht",r_ready:"Je bericht is klaar",r_copy:"Kopiëren",
- r_note:"Het bericht wordt nergens automatisch verzonden: kopieer het en stuur het naar het restaurant. Nummer van het restaurant: {tbc}",
+ r_note:"Het bericht wordt nergens automatisch verzonden: stuur het via WhatsApp of sms, of bel rechtstreeks +32 (0)466 40 42 42.",
  foot_about:"Marokkaans restaurant in Dison. De grote klassiekers, huisgemaakt, familierecepten.",foot_contact:"Contact",
- legal:"Wettelijke vermeldingen",vat:"Ondernemingsnummer",credit:"Website gemaakt door Khalid",close:"Sluiten",tbc:"[AAN TE VULLEN]",
+ legal:"Wettelijke vermeldingen",vat:"Btw",credit:"Website gemaakt door Khalid",close:"Sluiten",tbc:"[AAN TE VULLEN]",
  people:n=>n+(n>1?" personen":" persoon"),morePeople:"Meer dan 10 (vermeld in het bericht)",
- err_req:"Vul a.u.b. in: naam, telefoon, datum, uur.",err_wed:"Het restaurant is gesloten op woensdag. Kies een andere dag.",err_past:"Deze datum is voorbij.",
+ err_req:"Vul a.u.b. in: naam, telefoon, datum, uur.",err_wed:"Het restaurant is gesloten op maandag en dinsdag. Kies een andere dag.",err_past:"Deze datum is voorbij.",
  copied:"Bericht gekopieerd!",
- msg:d=>`Hallo Dar L'Beïda,\n\nIk wil graag een tafel reserveren:\n• Naam: ${d.name}\n• Telefoon: ${d.phone}\n• Datum: ${d.date}\n• Uur: ${d.time}\n• Personen: ${d.people}\n• Keuze: ${d.choice}${d.msg?`\n• Bericht: ${d.msg}`:""}\n\nBedankt en tot binnenkort!`,
+ msg:d=>`Hallo Dar L'Beïda,\n\nIk wil graag een tafel reserveren:\n• Naam: ${d.name}\n• Telefoon: ${d.phone}\n• Datum: ${d.date}\n• Uur: ${d.time}\n• Personen: ${d.people}${d.msg?`\n• Bericht: ${d.msg}`:""}\n\nBedankt en tot binnenkort!`,
  ch_f:"Formule Dar L'Beïda (40 €)",ch_c:"À la carte",
- legalHtml:`<h4>Uitgever</h4><p>Dar L'Beïda — Rue Albert Ier 108, 4820 Dison, België.<br>Verantwoordelijke: {tbc}<br>Ondernemingsnummer (KBO): {tbc}<br>Contact: {tbc}</p><h4>Hosting</h4><p>GitHub Pages — GitHub, Inc.</p><h4>Persoonsgegevens</h4><p>Het reservatieformulier verstuurt geen gegevens: het bericht wordt in je browser gemaakt en jij verstuurt het zelf. Google Maps (ingesloten kaart) kan eigen cookies plaatsen.</p><h4>Credits</h4><p>Foto's: Dar L'Beïda. Website gemaakt door Khalid.</p>`
+ legalHtml:`<h4>Uitgever</h4><p>Dar L'Beïda — Rue Albert Ier 108, 4820 Dison, België.<br>Verantwoordelijke: Zakaria Jawhari<br>Ondernemings- / btw-nummer: BE 1034.613.678<br>Contact: +32 (0)466 40 42 42</p><h4>Hosting</h4><p>GitHub Pages — GitHub, Inc.</p><h4>Persoonsgegevens</h4><p>Het reservatieformulier verstuurt geen gegevens: het bericht wordt in je browser gemaakt en jij verstuurt het zelf. Google Maps (ingesloten kaart) kan eigen cookies plaatsen.</p><h4>Credits</h4><p>Foto's: Dar L'Beïda. Website gemaakt door Khalid.</p>`
 },
 en:{
+ h_closed:"Closed Mondays and Tuesdays",
  nav_story:"Our story",nav_menu:"Menu",nav_house:"The house",nav_salon:"The lounge",nav_access:"Getting here",nav_book:"Booking",
  cta_book:"Book a table",cta_menu:"See the menu",cta_delivery:"Delivery via Takeaway.com",
  hero_lead:"The great classics of Moroccan cooking, homemade, just like mum's. Family recipes, in the heart of Dison.",
- hero_open:"Every evening except Wednesday",
+ hero_open:"Wednesday to Sunday · 6 pm – 11 pm",
  story_eyebrow:"Our story",story_title:"Mum's cooking, in Dison",
  story_p1:"Zakaria Jawhari is Belgian-Moroccan. He grew up with his mother's dishes and learned everything from her: the spices, the patience of slow cooking, the generosity of the Moroccan table.",
- story_p2:"At Dar L'Beïda the menu is deliberately short: only great Moroccan classics, homemade from family recipes — with vegetarian options.",
+ story_p2:"At Dar L'Beïda you'll find the great Moroccan classics, homemade from family recipes, as well as grills and gourmet pasta — with vegetarian options.",
  story_quote:"“The goal? That you feel at home.”",
  p_home:"Homemade",p_family:"Family recipes",p_veg:"Vegetarian options",
- menu_eyebrow:"Menu",menu_title:"The great classics",menu_lead:"A short menu, by choice: everything is made in-house.",menu_sub:"Homemade Moroccan cuisine",
+ menu_eyebrow:"Menu",menu_title:"The Chez Zak menu",menu_lead:"Moroccan specialities, grills and gourmet pasta: everything is made in-house.",menu_sub:"Authentic Moroccan cuisine &amp; gourmet pasta",
  f_eyebrow:"Discover",f_title:"Dar L'Beïda set menu",f_1:"House aperitif",f_2:"Starter",f_3:"Main course",f_4:"Dessert",f_cta:"Book the set menu",
- menu_takeaway:"Direct link to our Takeaway.com page: {tbc}",
+ menu_takeaway:"Delivery too: search for “Dar L'beïda” on Takeaway.com.",
  house_eyebrow:"The house",house_title:"A setting that tells of Morocco",
  house_lead:"A large oriental mural, a carved door and lanterns, golden mirrors and tables set to welcome you.",
  cap1:"The large oriental mural",cap2:"The carved door and set tables",cap3:"Carved lanterns",cap4:"Pottery and craftsmanship",cap5:"Chicken tajine with olives & preserved lemon",cap6:"Golden mirrors and soft light",cap7:"The dining room, ready for evening service",
@@ -851,47 +1092,55 @@ en:{
  salon_lead:"If the restaurant is full, we won't leave you on the pavement: you wait in the lounge, just like at home.",
  salon_1:"Embroidered banquettes",salon_2:"Striped cushions",salon_3:"Carved chandelier",
  acc_eyebrow:"Getting here",acc_title:"Find us",belgium:"Belgium",acc_route:"Directions",
- w1t:"By car",w1:"Street parking in front of and around the restaurant. Recommended car park: {tbc}",
- w2t:"TEC bus from Verviers",w2:"Dison borders Verviers: from Verviers-Central station, take a TEC bus to Dison. Line and nearest stop: {tbc}",
- w3t:"From Liège (E42)",w3:"Take the E42 motorway towards Verviers, then follow signs for Dison. Recommended exit: {tbc}",
- h_open:"Open",h_days:"every evening except Wednesday",h_days_cap:"Every evening except Wednesday",h_hours:"Opening hours",h_phone:"Phone",h_addr:"Address",
+ w1t:"By car",w1:"Street parking in front of and around the restaurant. Easiest: open the Google Maps or Waze directions above.",
+ w2t:"TEC bus from Verviers",w2:"Dison borders Verviers: from Verviers-Central station, take TEC bus <b>line 702</b> to Dison.",
+ w3t:"From Liège (E42)",w3:"Take the E42 motorway towards Verviers, then follow signs for Dison. Your GPS or Waze will guide you to the door.",
+ h_open:"Open",h_days:"Wednesday to Sunday",h_days_cap:"Wednesday to Sunday",h_hours:"Opening hours",h_phone:"Phone",h_addr:"Address",
  r_eyebrow:"Booking",r_title:"Book your table",r_lead:"Fill in the form: we'll prepare a message ready to send by text or WhatsApp.",
  l_name:"Name",l_phone:"Phone",l_date:"Date",l_time:"Time",l_people:"Number of guests",l_choice:"Your choice",l_msg:"Message",l_msg_ph:"Allergies, special occasion, special request…",
  c_f:"aperitif, starter, main, dessert",c_c:"À la carte",c_c2:"as you like",
  r_generate:"Create my message",r_ready:"Your message is ready",r_copy:"Copy",
- r_note:"The message is not sent anywhere automatically: copy it and send it to the restaurant. Restaurant number: {tbc}",
+ r_note:"The message is not sent anywhere automatically: send it by WhatsApp or text, or call +32 (0)466 40 42 42 directly.",
  foot_about:"Moroccan restaurant in Dison. The great classics, homemade, family recipes.",foot_contact:"Contact",
- legal:"Legal notice",vat:"Company no.",credit:"Website by Khalid",close:"Close",tbc:"[TO BE COMPLETED]",
+ legal:"Legal notice",vat:"VAT",credit:"Website by Khalid",close:"Close",tbc:"[TO BE COMPLETED]",
  people:n=>n+(n>1?" guests":" guest"),morePeople:"More than 10 (say so in the message)",
- err_req:"Please fill in: name, phone, date, time.",err_wed:"The restaurant is closed on Wednesdays. Please pick another day.",err_past:"This date has passed.",
+ err_req:"Please fill in: name, phone, date, time.",err_wed:"The restaurant is closed on Mondays and Tuesdays. Please pick another day.",err_past:"This date has passed.",
  copied:"Message copied!",
- msg:d=>`Hello Dar L'Beïda,\n\nI would like to book a table:\n• Name: ${d.name}\n• Phone: ${d.phone}\n• Date: ${d.date}\n• Time: ${d.time}\n• Guests: ${d.people}\n• Choice: ${d.choice}${d.msg?`\n• Message: ${d.msg}`:""}\n\nThank you, see you soon!`,
+ msg:d=>`Hello Dar L'Beïda,\n\nI would like to book a table:\n• Name: ${d.name}\n• Phone: ${d.phone}\n• Date: ${d.date}\n• Time: ${d.time}\n• Guests: ${d.people}${d.msg?`\n• Message: ${d.msg}`:""}\n\nThank you, see you soon!`,
  ch_f:"Dar L'Beïda set menu (€40)",ch_c:"À la carte",
- legalHtml:`<h4>Publisher</h4><p>Dar L'Beïda — Rue Albert Ier 108, 4820 Dison, Belgium.<br>Responsible person: {tbc}<br>Company number (CBE): {tbc}<br>Contact: {tbc}</p><h4>Hosting</h4><p>GitHub Pages — GitHub, Inc.</p><h4>Personal data</h4><p>The booking form sends no data: the message is created in your browser and you send it yourself. Google Maps (embedded map) may set its own cookies.</p><h4>Credits</h4><p>Photos: Dar L'Beïda. Website by Khalid.</p>`
+ legalHtml:`<h4>Publisher</h4><p>Dar L'Beïda — Rue Albert Ier 108, 4820 Dison, Belgium.<br>Responsible person: Zakaria Jawhari<br>Company / VAT number: BE 1034.613.678<br>Contact: +32 (0)466 40 42 42</p><h4>Hosting</h4><p>GitHub Pages — GitHub, Inc.</p><h4>Personal data</h4><p>The booking form sends no data: the message is created in your browser and you send it yourself. Google Maps (embedded map) may set its own cookies.</p><h4>Credits</h4><p>Photos: Dar L'Beïda. Website by Khalid.</p>`
 }};
 
 /* ---- Menu data ---- */
 const MENU = [
- {k:{fr:"Entrées",nl:"Voorgerechten",en:"Starters"},items:[
-  {n:"Pastilla Poulet",d:{fr:"",nl:"met kip",en:"chicken"},p:"10 €"},
-  {n:"Pastilla Fruits de Mer",d:{fr:"",nl:"met zeevruchten",en:"seafood"},p:"10 €"},
-  {n:"Pastilla Kefta",d:{fr:"",nl:"met gehakt",en:"minced meat"},p:"10 €"},
-  {n:"« La Scampia »",d:{fr:"scampis du Jeffe",nl:"scampi's van de Jeffe",en:"the Jeffe's scampi"},p:"14 €"},
-  {n:"Harira Traditionnelle",d:{fr:"",nl:"traditionele soep",en:"traditional soup"},p:"7 €"}]},
- {k:{fr:"Couscous",nl:"Couscous",en:"Couscous"},items:[
-  {n:{fr:"Poulet / Merguez / Kefta",nl:"Kip / Merguez / Kefta",en:"Chicken / Merguez / Kefta"},p:"19 €"},
-  {n:{fr:"Agneau Mijoté",nl:"Gestoofd lamsvlees",en:"Slow-cooked lamb"},p:"22 €"},
-  {n:{fr:"Végétarien",nl:"Vegetarisch",en:"Vegetarian"},p:"14 €",veg:1},
-  {n:"Royal",p:"24,50 €"}],
-  note:{fr:"<b>Option tfaya</b> — oignons et raisins caramélisés à la cannelle, avec ou sans.",nl:"<b>Optie tfaya</b> — gekarameliseerde uien en rozijnen met kaneel, met of zonder.",en:"<b>Tfaya option</b> — onions and raisins caramelised with cinnamon, with or without."}},
- {k:{fr:"Tajines",nl:"Tajines",en:"Tajines"},items:[
-  {n:{fr:"Agneau aux pruneaux & amandes",nl:"Lam met pruimen & amandelen",en:"Lamb with prunes & almonds"},p:"22 €"},
-  {n:{fr:"Poulet aux olives & citron confit",nl:"Kip met olijven & gekonfijte citroen",en:"Chicken with olives & preserved lemon"},p:"19 €"},
-  {n:{fr:"Kefta à l'œuf",nl:"Kefta met ei",en:"Kefta with egg"},p:"19 €"},
-  {n:{fr:"Scampis",nl:"Scampi's",en:"Scampi"},p:"19 €"},
-  {n:{fr:"Végétarien",nl:"Vegetarisch",en:"Vegetarian"},d:{fr:"légumes de saison",nl:"seizoensgroenten",en:"seasonal vegetables"},p:"14 €",veg:1}]},
- {k:{fr:"Dessert",nl:"Dessert",en:"Dessert"},items:[
-  {n:{fr:"Gâteaux marocains & théière de thé à la menthe",nl:"Marokkaanse koekjes & theepot muntthee",en:"Moroccan pastries & a pot of mint tea"},p:"10 €"}]}
+ {k:{fr:"Nos entrées",nl:"Voorgerechten",en:"Starters"},items:[
+  {n:"Pastilla au poulet",d:{fr:"",nl:"met kip",en:"chicken pastilla"},p:"10 €"},
+  {n:{fr:"Soupe traditionnelle (Harira)",nl:"Traditionele soep (Harira)",en:"Traditional soup (Harira)"},p:"7 €"},
+  {n:{fr:"Scampis du chef",nl:"Scampi's van de chef",en:"Chef's scampi"},p:"13 €"},
+  {n:{fr:"Scampis crème à l'ail",nl:"Scampi's in looksaus",en:"Scampi in garlic cream"},p:"13 €"}]},
+ {k:{fr:"Nos spécialités marocaines",nl:"Marokkaanse specialiteiten",en:"Moroccan specialities"},items:[
+  {n:{fr:"Couscous Poulet",nl:"Couscous kip",en:"Chicken couscous"},p:"19 €"},
+  {n:{fr:"Couscous Merguez",nl:"Couscous merguez",en:"Merguez couscous"},p:"19 €"},
+  {n:{fr:"Couscous Agneau mijoté",nl:"Couscous gestoofd lam",en:"Slow-cooked lamb couscous"},p:"22 €"},
+  {n:"Couscous Royal",d:{fr:"poulet, merguez et agneau",nl:"kip, merguez en lam",en:"chicken, merguez and lamb"},p:"24,50 €"},
+  {n:{fr:"Couscous Végétarien",nl:"Couscous vegetarisch",en:"Vegetarian couscous"},p:"16 €",veg:1},
+  {n:{fr:"Tajine Poulet aux olives et citron confit",nl:"Tajine kip met olijven en gekonfijte citroen",en:"Chicken tajine with olives and preserved lemon"},p:"19 €"},
+  {n:{fr:"Tajine Agneau aux pruneaux et amandes grillées",nl:"Tajine lam met pruimen en geroosterde amandelen",en:"Lamb tajine with prunes and toasted almonds"},p:"22 €"},
+  {n:{fr:"Tajine de Kefta aux œufs",nl:"Tajine kefta met eieren",en:"Kefta tajine with eggs"},p:"19 €"},
+  {n:{fr:"Tajine Végétarien",nl:"Tajine vegetarisch",en:"Vegetarian tajine"},p:"16 €",veg:1}]},
+ {k:{fr:"Nos grillades",nl:"Grillgerechten",en:"Grills"},items:[
+  {n:{fr:"Assiette de brochettes de poulet",nl:"Bord kippenbrochettes",en:"Chicken skewers plate"},p:"19 €"},
+  {n:{fr:"Assiette de merguez",nl:"Bord merguez",en:"Merguez plate"},p:"19 €"},
+  {n:{fr:"Assiette mixte de viandes",nl:"Gemengde vleesschotel",en:"Mixed meat plate"},p:"24 €"}]},
+ {k:{fr:"Nos pâtes",nl:"Pasta",en:"Pasta"},items:[
+  {n:{fr:"Pâtes Scampis",nl:"Pasta scampi",en:"Scampi pasta"},d:{fr:"sauce crème tomate onctueuse",nl:"romige tomatenroomsaus",en:"creamy tomato sauce"},p:"14 €"},
+  {n:{fr:"Pâtes Poulet",nl:"Pasta kip",en:"Chicken pasta"},d:{fr:"sauce crémeuse aux épices douces",nl:"romige saus met zachte kruiden",en:"creamy mild-spice sauce"},p:"14 €"},
+  {n:{fr:"Pâtes Pesto",nl:"Pasta pesto",en:"Pesto pasta"},d:{fr:"sauce crémeuse au basilic",nl:"romige basilicumsaus",en:"creamy basil sauce"},p:"14 €",veg:1},
+  {n:"Penne Arrabbiata",d:{fr:"sauce tomate relevée, piment, ail",nl:"pittige tomatensaus, chili, look",en:"spicy tomato sauce, chilli, garlic"},p:"14 €",veg:1}]},
+ {k:{fr:"Nos desserts",nl:"Desserts",en:"Desserts"},items:[
+  {n:{fr:"Assortiment de pâtisseries marocaines & thé à la menthe fraîche",nl:"Marokkaans gebak & verse muntthee",en:"Moroccan pastries & fresh mint tea"},p:"10 €"},
+  {n:{fr:"Moelleux au chocolat cœur fondant & sa boule de glace vanille",nl:"Chocolade-moelleux met vanille-ijs",en:"Molten chocolate cake & vanilla ice cream"},p:"10 €"},
+  {n:"Dame Blanche",p:"7 €"}]}
 ];
 const VEG = {fr:"Végé",nl:"Veggie",en:"Veggie"};
 const L = v => typeof v === "string" ? v : (v && (v[lang] ?? v.fr)) || "";
@@ -900,7 +1149,7 @@ function renderMenu(){
   const col = (secs) => secs.map(s => `<div class="menu-sec"><h4>${L(s.k)}</h4><span class="sub">✦</span>${
     s.items.map(i=>`<div class="dish"><span class="n">${L(i.n)}${i.veg?`<span class="veg">${VEG[lang]}</span>`:""}${L(i.d)?`<em>${L(i.d)}</em>`:""}</span><span class="dots"></span><span class="p">${i.p}</span></div>`).join("")
   }${s.note?`<p class="tfaya">${L(s.note)}</p>`:""}</div>`).join("");
-  document.getElementById("menuCols").innerHTML = `<div>${col([MENU[0],MENU[1]])}</div><div>${col([MENU[2],MENU[3]])}</div>`;
+  document.getElementById("menuCols").innerHTML = `<div>${col([MENU[0],MENU[1]])}</div><div>${col([MENU[2],MENU[3],MENU[4]])}</div>`;
 }
 
 function renderPeople(){
@@ -981,11 +1230,10 @@ function checkDate(){
   if(!fd.value) return true;
   const d = new Date(fd.value+"T12:00");
   if(d < today){ hint.textContent = I18N[lang].err_past; return false; }
-  if(d.getDay()===3){ hint.textContent = I18N[lang].err_wed; return false; }
+  if(d.getDay()===1||d.getDay()===2){ hint.textContent = I18N[lang].err_wed; return false; }
   return true;
 }
 fd.addEventListener("change", checkDate);
-document.querySelectorAll("[data-formule]").forEach(a=>a.addEventListener("click",()=>{ document.getElementById("chF").checked = true; }));
 
 function buildMsg(silent){
   const D = I18N[lang], g = id => document.getElementById(id).value.trim();
@@ -996,7 +1244,6 @@ function buildMsg(silent){
   const loc = {fr:"fr-BE",nl:"nl-BE",en:"en-GB"}[lang];
   data.date = new Date(fd.value+"T12:00").toLocaleDateString(loc,{weekday:"long",day:"numeric",month:"long",year:"numeric"});
   const sel = document.getElementById("fp"); data.people = sel.options[sel.selectedIndex].text;
-  data.choice = document.getElementById("chF").checked ? D.ch_f : D.ch_c;
   const txt = D.msg(data);
   document.getElementById("msgOut").textContent = txt;
   const enc = encodeURIComponent(txt), num = PHONE.replace(/[^\d+]/g,"");
@@ -1022,6 +1269,17 @@ document.getElementById("yr").textContent = new Date().getFullYear();
 /* ---- Init ---- */
 let saved = null; try{ saved = localStorage.getItem("dlb-lang") }catch(e){}
 setLang(["fr","nl","en"].includes(saved) ? saved : "fr");
+
+/* ---- Musique d'ambiance ----
+   Les navigateurs bloquent le son tant que le visiteur n'a pas interagi avec la page.
+   La musique démarre donc au premier clic / toucher / touche clavier ; le bouton permet de la couper. */
+const bgm=document.getElementById("bgm"), mb=document.getElementById("musicBtn"); bgm.volume=.4;
+let userStopped=false;
+bgm.addEventListener("canplay",()=>mb.classList.add("ready"),{once:true});
+const playM=()=>{ const pr=bgm.play(); if(pr) pr.then(()=>mb.classList.add("playing")).catch(()=>{}); };
+mb.addEventListener("click",e=>{ e.stopPropagation(); if(bgm.paused){ userStopped=false; playM(); } else { userStopped=true; bgm.pause(); mb.classList.remove("playing"); } });
+playM();
+["pointerdown","keydown","touchstart"].forEach(ev=>addEventListener(ev,()=>{ if(bgm.paused&&!userStopped) playM(); },{once:true}));
 </script>
 </body>
 </html>
